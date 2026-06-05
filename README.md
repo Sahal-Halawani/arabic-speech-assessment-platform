@@ -26,13 +26,11 @@ An AI-powered platform for assessing Arabic speech responses using Speech Recogn
 
 ### Home Page
 
-![Home Page](home_page.jpeg)
+![Home Page](images/home_page.jpeg)
 
 ### Results Dashboard
 
-![Results](results.jpeg)
-
-## Project Goal
+![Results](images/results.jpeg)
 
 To automate Arabic speech assessment and provide detailed feedback using advanced AI and NLP techniques.
 
