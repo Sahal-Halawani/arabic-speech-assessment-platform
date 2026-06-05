@@ -1,18 +1,23 @@
-# Arabic Speech Assessment Platform
+# Arabic Speech Assessment Platform 🎤
 
 An AI-powered platform for assessing Arabic speech responses using Speech Recognition and Large Language Models (LLMs).
 
+## Overview
+
+This project evaluates spoken Arabic responses by converting speech to text and analyzing the content using multiple AI models. The platform provides automated assessment and feedback based on grammar, fluency, vocabulary, and coherence.
+
 ## Features
 
-* Speech-to-Text using Whisper
-* Automated speech assessment
+* Speech-to-Text conversion using Whisper
+* Arabic speech assessment
 * Grammar evaluation
 * Fluency evaluation
 * Vocabulary evaluation
 * Coherence evaluation
-* Comparison of multiple LLMs (Gemini, LLaMA 70B, and Qwen)
+* Comparison between multiple LLMs
+* Interactive web interface using Streamlit
 
-## Technologies
+## Technologies Used
 
 * Python
 * Streamlit
@@ -20,7 +25,7 @@ An AI-powered platform for assessing Arabic speech responses using Speech Recogn
 * Gemini
 * LLaMA 70B
 * Qwen
-* NLP
+* Natural Language Processing (NLP)
 
 ## Screenshots
 
@@ -28,9 +33,38 @@ An AI-powered platform for assessing Arabic speech responses using Speech Recogn
 
 ![Home Page](images/home_page.jpeg)
 
-### Results Dashboard
+### Assessment Results
 
 ![Results](images/results.jpeg)
 
-To automate Arabic speech assessment and provide detailed feedback using advanced AI and NLP techniques.
+## Workflow
 
+1. Upload or record an Arabic speech response.
+2. Convert speech to text using Whisper.
+3. Analyze the response using multiple LLMs.
+4. Generate assessment scores and feedback.
+5. Compare model outputs and display results.
+
+## Project Objectives
+
+* Automate Arabic speech assessment.
+* Compare the performance of different Large Language Models.
+* Provide meaningful feedback for spoken responses.
+* Explore the integration of Speech Recognition and NLP technologies.
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Application
+
+```bash
+streamlit run app.py
+```
+
+## Author
+
+Sahel Halwani
+Data Science Graduate – Umm Al-Qura University
