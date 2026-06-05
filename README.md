@@ -52,17 +52,13 @@ This project evaluates spoken Arabic responses by converting speech to text and 
 * Provide meaningful feedback for spoken responses.
 * Explore the integration of Speech Recognition and NLP technologies.
 
-## Installation
+## Project Highlights
 
-```bash
-pip install -r requirements.txt
-```
-
-## Run the Application
-
-```bash
-streamlit run app.py
-```
+- Automated Arabic Speech Assessment
+- Speech-to-Text using Whisper
+- LLM-based Evaluation (Gemini, LLaMA 70B, Qwen)
+- Interactive Streamlit Dashboard
+- Comparative Analysis of Model Performance
 
 ## Author
 
